@@ -1,0 +1,88 @@
+/* start variables */
+:root {
+  --main-color: ;
+  --back-color: ;
+  --text-color: ;
+}
+/* end variables */
+/* dark mode  */
+.dark-mode {
+  --main-color: ;
+  --back-color: ;
+  --text-color: ;
+}
+/* dark mode  */
+/* start global rules */
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font-family: ; */
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+/* End Global Rules */
+iframe {
+  width: 100%;
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 30px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #3b3b3b;
+  -webkit-border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 50px;
+  background-color: #666;
+  border: 1px solid #eee;
+  -webkit-border-radius: 6px;
+}
